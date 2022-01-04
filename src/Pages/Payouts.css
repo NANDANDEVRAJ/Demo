@@ -1,0 +1,72 @@
+.PayoutsMain{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Box{
+    margin-left: 250px;
+    margin-top: 20px;
+    display: flex;
+    margin: auto;
+   
+}
+.payoutLg{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    padding: 20px;
+    width: 60%;
+}
+.search{
+    margin: 10px 30px;
+    width: 300px;
+    align-self: center;
+    font-size: medium;
+    padding: 5px;
+}
+.payoutLgTitle{
+    font-weight: 600;
+    font-size: 22px;
+}
+.payoutLgTable{
+    width: 800px;
+    border-spacing: 20px;
+}
+.payoutLgTr{
+    border-bottom: 2px solid rgb(221, 179, 248) !important;
+
+}
+.payoutLgTrTitle{
+    border-bottom: 2px solid rgb(100, 2, 100) !important;
+}
+
+.payoutLgUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.payoutLgDate,.payoutLgAmount{
+    font-weight: 300;
+    font-size: medium;
+}
+.payoutLgProduct{
+    font-weight: 500;
+}
+.payoutLgButton{
+    padding: 5px 7px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3px;
+}
+.payoutLgButton.Completed{
+    background-color: #beeedc;
+    color: #3bb077;
+}
+.payoutLgButton.Error,.payoutLgButton.Canceled{
+    background-color: #eebfbe;
+    color: #b03f3b;
+}
+.payoutLgButton.Created{
+    background-color: #bed8ee;
+    color: #3b60b0;
+}

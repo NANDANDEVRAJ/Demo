@@ -1,0 +1,72 @@
+.reportBox{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-right: 50px !important;
+}
+.forms{
+    background-color: rgb(224, 223, 223);
+    padding: 20px;
+}
+.forms form{
+ display:flex;
+ justify-content: space-evenly;
+
+}
+.forms form div{
+    font-weight: 500;
+}
+.forms input{
+    width: 300px;
+}
+.reportbtn{
+    margin: 10px 15px;
+}
+.reportLg{
+    flex: 2;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+.reportLgTh{
+    font-size: 21px;
+     color: rgb(102, 2, 102);
+     border-bottom:  2px solid rgb(192, 192, 192);
+}
+.reportLgTr td{
+    font-weight: 500;
+}
+.reportLgImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.LinkItem{
+    text-decoration: none;
+}
+.reportLgTitle{
+    font-weight: 800 !important;
+    font-size: 29px !important;
+}
+.reportLgTable{
+    width: 100%;
+    height: 100%;
+    border-spacing: 20px;
+}
+.ReportTable{
+    width: 100%;
+}
+.reportLgUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.reportLgId,.reportLgBalance,.reportLgName{
+    font-weight: 500;
+    font-size: 19px;
+}
+
